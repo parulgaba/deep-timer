@@ -1,7 +1,13 @@
-.bounce {
-  -webkit-animation-name: bounce;
-  animation-name: bounce;
-  -webkit-transform-origin: center bottom;
-  transform-origin: center bottom;
-  animation-duration: 2s;
+.timer {
+  animation: timer-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+@keyframes timer-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
