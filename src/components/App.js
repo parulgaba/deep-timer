@@ -8,15 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <Timer />
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <Timer className="bounce" />
         </header>
       </div>
     );

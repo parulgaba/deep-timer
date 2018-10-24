@@ -20,6 +20,8 @@
 
 .App-link {
   color: #61dafb;
+  opacity: 1;
+  transition: height 500ms 0ms, opacity 500ms 500ms;
 }
 
 @keyframes App-logo-spin {
