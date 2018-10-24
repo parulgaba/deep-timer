@@ -6,10 +6,8 @@ import "./App.css";
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="row">
-          <Timer />
-        </div>
+      <div className="timer">
+        <Timer />
       </div>
     );
   }
